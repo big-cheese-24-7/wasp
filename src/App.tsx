@@ -1,6 +1,8 @@
+import { WelcomePage } from "./components"
+
 function App() {
   return (
-    <div>Welcome to Wasp</div>
+    <WelcomePage />
   )
 }
 
