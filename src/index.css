@@ -29,3 +29,24 @@ body {
 .welcome__desc {
   @apply text-sm font-medium text-zinc-400;
 }
+
+/* EDITOR PAGE */
+.editor__root {
+  @apply grid grid-cols-16 grid-rows-[3rem_1fr] relative h-screen w-screen;
+}
+.editor__root > * {
+  @apply border-zinc-700;
+}
+
+.editor__header {
+  @apply border-b col-span-16 row-span-1;
+}
+.editor__dom {
+  @apply border-r col-span-2 row-span-1;
+}
+.editor__display {
+  @apply col-span-12 bg-zinc-800;
+}
+.editor__styles {
+  @apply border-l col-span-2 row-span-1;
+}
