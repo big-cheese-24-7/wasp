@@ -1,4 +1,4 @@
-![Wasp Logo](public/banner.svg)
+![Wasp Logo](public/banner.png)
 # Welcome to WASP 
 
 A website builder 
